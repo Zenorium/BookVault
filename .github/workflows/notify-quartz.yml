@@ -1,0 +1,17 @@
+name: Notify Quartz Repo on Update
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  notify-quartz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository dispatch event
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.QUARTZ_PAT }}
+          repository: Zenorium/quartz
+          event-type: book-updated
