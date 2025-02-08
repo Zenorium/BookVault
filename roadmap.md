@@ -3,8 +3,6 @@
 
 
 
-Software Engineering, A Practitioner's Approach
-
 | Priority | Book Name                                       | IsCompleted | Link |
 | -------- | ----------------------------------------------- | :---------: | ---- |
 | 1        | Software Engineering, A Practitioner's Approach |      ❌      |      |
