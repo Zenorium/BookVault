@@ -1,2 +1,2 @@
 # BookVault
-All  Book Posts on Site will come here
+All book-related content for the site is stored in this repository
